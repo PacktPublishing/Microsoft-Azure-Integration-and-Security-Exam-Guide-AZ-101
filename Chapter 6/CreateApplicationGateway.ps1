@@ -137,8 +137,3 @@ New-AzureRmApplicationGateway `
 
 #Retrieve the public IP Address of the Application Gateway
 Get-AzureRmPublicIPAddress -ResourceGroupName PacktApplicationGateway -Name PacktAGPublicIPAddress
-
-
-
-
-#Remove-AzureRmResourceGroup -Name PacktApplicationGateway
